@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CookTail</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+        <!-- Home page -->
+        <div class="full-container">
+            <p class="menu-button">MENU</p>
+            <div class="home-text">
+                <img class="logo" src="assets/images/logo.jpg" alt="Logo CookTail">
+                <p>CookTail</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <!-- End of Home page -->
+
+    <!-- Menu part -->
+    <!--<div class="menu">-->
+        <!--<li>zizi</li>-->
+        <!--<li>zozo</li>-->
+        <!--<li>zaza</li>-->
+    <!--</div>-->
+    <!-- End of Menu part -->
+<script>
+    const button = document.querySelector(".menu-button");
+    const menu = document.querySelector(".menu");
+
+    function toggleMenu ()
+    {
+        menu.classList.toggle("opened-menu");
+    }
+
+    button.addEventListener('click', toggleMenu);
+</script>
+</body>
+</html>

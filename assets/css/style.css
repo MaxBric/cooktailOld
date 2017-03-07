@@ -1,0 +1,48 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/*.full-site {*/
+    /*display: flex;*/
+/*}*/
+
+/*.content {*/
+    /*display: flex;*/
+    /*flex: 1;*/
+/*}*/
+
+/* Home page */
+
+.full-container {
+    display: flex;
+    background: url('../images/home.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.logo {
+    max-width: 20%;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+    transition: all 1s ease;
+}
+
+.opened-menu {
+    flex: 2;
+}
