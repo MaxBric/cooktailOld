@@ -3,70 +3,83 @@ html, body {
     height: 100%;
     margin: 0;
 }
-
-/*.full-site {*/
-    /*display: flex;*/
-/*}*/
-
-/*.content {*/
-    /*display: flex;*/
-    /*flex: 1;*/
-/*}*/
-
-/* Home page */
-
-.full-container {
+/* page d'accueil */
+.homepage {
     background: url('../images/home.jpg') no-repeat center center fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+/* containeur pleine page */
+.full-container {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
     width: 100%;
-    position: fixed;
-    overflow-y: auto;
-    margin: 0 auto;
-    z-index: 0;
-    text-align: center;
-
+    overflow: hidden;
 }
 
-.home-text {
+/* page boutique */
+.shop {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    background-color: grey;
+}
+
+.card-presentation {
+    display: flex;
     justify-content: center;
-    color: white;
+}
+
+.card-presentation img {
+    width: 45%;
+    height: 100%
+}
+
+.card-presentation-text {
+    width: 45%;
+    background-color: white;
+}
+
+.card-presentation-text h2 {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    height: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .logo {
-    max-width: 20%;
+    width: 30%;
 }
 
-.menu {
+.title {
+    background: white;
     display: flex;
-    flex: 1;
-    transition: all 1s ease;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
 }
 
-.opened-menu {
-    flex: 2;
-}
+/*.square-presentation-line {*/
+/*display: flex;*/
+/*width: 100%;*/
 
-.square-presentation {
+/*}*/
 
-}
+/*.square-presentation h2 {*/
 
-.square-presentation-line {
-    display: flex;
-    width: 100%;
+/*}*/
 
-}
-
-.square-presentation h2 {
-
-}
-
-.square-presentation img {
-    width: 50%;
-}
+/*.square-presentation img {*/
+/*width: 50%;*/
+/*}*/
