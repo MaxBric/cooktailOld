@@ -3,66 +3,87 @@ html, body {
     height: 100%;
     margin: 0;
 }
-
-/*.full-site {*/
-    /*display: flex;*/
-/*}*/
-
-/*.content {*/
-    /*display: flex;*/
-    /*flex: 1;*/
-/*}*/
-
-/* Home page */
-
-.full-container {
+/* page d'accueil */
+.homepage {
     background: url('../images/home.jpg') no-repeat center center fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+/* containeur pleine page */
+.full-container {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
     width: 100%;
+<<<<<<< HEAD
     overflow-y: auto;
     margin: 0 auto;
     z-index: 0;
     text-align: center;
     padding-bottom: 3%;
 
+=======
+    overflow: hidden;
+>>>>>>> 3dcb3e968ab7c199f493d7d81ffeee3a8d6ab76b
 }
 
-.home-text {
+/* page boutique */
+.shop {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
+    background-color: grey;
 }
 
-.logo {
-    max-width: 20%;
-}
-
-.menu {
+.card-presentation {
     display: flex;
-    flex: 1;
-    transition: all 1s ease;
+    justify-content: center;
 }
 
-.opened-menu {
-    flex: 2;
+.card-presentation img {
+    width: 45%;
+    height: 100%
 }
 
+.card-presentation-text {
+    width: 45%;
+    background-color: white;
+}
+
+.card-presentation-text h2 {
+    text-align: center;
+}
+
+<<<<<<< HEAD
 .square-presentation {
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+=======
+.content {
+    display: flex;
+    height: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.square-presentation-line {
+.logo {
+    width: 30%;
+>>>>>>> 3dcb3e968ab7c199f493d7d81ffeee3a8d6ab76b
+}
+
+.title {
+    background: white;
     display: flex;
+<<<<<<< HEAD
     width: 100%;
     margin-top: 10%;
     flex-direction: row;
@@ -92,3 +113,23 @@ html, body {
     padding-top: 0.1%;
     font-size: 30px;
 }
+=======
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+/*.square-presentation-line {*/
+/*display: flex;*/
+/*width: 100%;*/
+
+/*}*/
+
+/*.square-presentation h2 {*/
+
+/*}*/
+
+/*.square-presentation img {*/
+/*width: 50%;*/
+/*}*/
+>>>>>>> 3dcb3e968ab7c199f493d7d81ffeee3a8d6ab76b
