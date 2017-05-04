@@ -3,133 +3,70 @@ html, body {
     height: 100%;
     margin: 0;
 }
-/* page d'accueil */
-.homepage {
-    background: url('../images/home.jpg') no-repeat center center fixed;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    display: flex;
-    text-align: center;
-}
 
-/* containeur pleine page */
+/*.full-site {*/
+    /*display: flex;*/
+/*}*/
+
+/*.content {*/
+    /*display: flex;*/
+    /*flex: 1;*/
+/*}*/
+
+/* Home page */
+
 .full-container {
+    background: url('../images/home.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
     width: 100%;
-<<<<<<< HEAD
+    position: fixed;
     overflow-y: auto;
     margin: 0 auto;
     z-index: 0;
     text-align: center;
-    padding-bottom: 3%;
 
-=======
-    overflow: hidden;
->>>>>>> 3dcb3e968ab7c199f493d7d81ffeee3a8d6ab76b
 }
 
-/* page boutique */
-.shop {
-    display: flex;
-    flex-direction: column;
-    background-color: grey;
-}
-
-.card-presentation {
-    display: flex;
-    justify-content: center;
-}
-
-.card-presentation img {
-    width: 45%;
-    height: 100%
-}
-
-.card-presentation-text {
-    width: 45%;
-    background-color: white;
-}
-
-.card-presentation-text h2 {
-    text-align: center;
-}
-
-<<<<<<< HEAD
-.square-presentation {
-    width: 50%;
-    height: 100%;
+.home-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-=======
-.content {
-    display: flex;
-    height: 70%;
-    margin-top: auto;
-    margin-bottom: auto;
+    justify-content: center;
+    color: white;
 }
 
 .logo {
-    width: 30%;
->>>>>>> 3dcb3e968ab7c199f493d7d81ffeee3a8d6ab76b
+    max-width: 20%;
 }
 
-.title {
-    background: white;
+.menu {
     display: flex;
-<<<<<<< HEAD
+    flex: 1;
+    transition: all 1s ease;
+}
+
+.opened-menu {
+    flex: 2;
+}
+
+.square-presentation {
+
+}
+
+.square-presentation-line {
+    display: flex;
     width: 100%;
-    margin-top: 10%;
-    flex-direction: row;
-    align-items: center;
 
 }
 
 .square-presentation h2 {
-    font-size: 40px;
-    width: 50%;
-    background-color: #999999;
-    text-align: center;
+
 }
 
 .square-presentation img {
     width: 50%;
 }
-.square-presentation-description {
-    width: 50%;
-    height: 80%;
-    background-color: #999999;
-}
-
-.title {
-    background-color: #999999;
-    height: 15%;
-    padding-top: 0.1%;
-    font-size: 30px;
-}
-=======
-    justify-content: center;
-    align-items: center;
-    height: 10%;
-}
-
-/*.square-presentation-line {*/
-/*display: flex;*/
-/*width: 100%;*/
-
-/*}*/
-
-/*.square-presentation h2 {*/
-
-/*}*/
-
-/*.square-presentation img {*/
-/*width: 50%;*/
-/*}*/
->>>>>>> 3dcb3e968ab7c199f493d7d81ffeee3a8d6ab76b
