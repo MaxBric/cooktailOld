@@ -1,0 +1,115 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+/* page d'accueil */
+.homepage {
+    background: url('../images/home.jpg') no-repeat center center fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+/* containeur pleine page */
+.full-container {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* page boutique */
+.shop {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.card-presentation {
+    display: flex;
+    justify-content: center;
+}
+
+.card-presentation img {
+    width: 45%;
+    height: 100%
+}
+
+.card-presentation-text {
+    width: 45%;
+    background-color: white;
+}
+
+.card-presentation-text h2 {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    height: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo {
+    width: 30%;
+}
+
+.title {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.white-background {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.grey-background {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+
+.square-presentation {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square-presentation-line {
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.square-presentation h2 {
+    font-size: 40px;
+    width: 50%;
+    text-align: center;
+}
+
+.square-presentation-description {
+    width: 50%;
+    height: 80%;
+    background-color: black;
+}
+
+
+.square-presentation img {
+width: 50%;
+}
