@@ -29,7 +29,7 @@ html, body {
 .shop {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: grey;
 }
 
 .card-presentation {
@@ -70,46 +70,16 @@ html, body {
     height: 10%;
 }
 
-.white-background {
-    background-color: #FFFFFF;
-    color: #000000;
-}
+/*.square-presentation-line {*/
+/*display: flex;*/
+/*width: 100%;*/
 
-.grey-background {
-    background-color: black;
-    color: #FFFFFF;
-}
+/*}*/
 
+/*.square-presentation h2 {*/
 
-.square-presentation {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/*}*/
 
-.square-presentation-line {
-    display: flex;
-    width: 100%;
-    margin-top: 10%;
-    flex-direction: row;
-    align-items: center;
-}
-
-.square-presentation h2 {
-    font-size: 40px;
-    width: 50%;
-    text-align: center;
-}
-
-.square-presentation-description {
-    width: 50%;
-    height: 80%;
-    background-color: black;
-}
-
-
-.square-presentation img {
-width: 50%;
-}
+/*.square-presentation img {*/
+/*width: 50%;*/
+/*}*/
