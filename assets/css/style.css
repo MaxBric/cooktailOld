@@ -22,7 +22,16 @@ html, body {
     background-size: cover;
     height: 100%;
     width: 100%;
+<<<<<<< HEAD
+    overflow-y: auto;
+    margin: 0 auto;
+    z-index: 0;
+    text-align: center;
+    padding-bottom: 3%;
+
+=======
     overflow: hidden;
+>>>>>>> 3dcb3e968ab7c199f493d7d81ffeee3a8d6ab76b
 }
 
 /* page boutique */
@@ -51,6 +60,14 @@ html, body {
     text-align: center;
 }
 
+<<<<<<< HEAD
+.square-presentation {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+=======
 .content {
     display: flex;
     height: 70%;
@@ -60,11 +77,43 @@ html, body {
 
 .logo {
     width: 30%;
+>>>>>>> 3dcb3e968ab7c199f493d7d81ffeee3a8d6ab76b
 }
 
 .title {
     background: white;
     display: flex;
+<<<<<<< HEAD
+    width: 100%;
+    margin-top: 10%;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.square-presentation h2 {
+    font-size: 40px;
+    width: 50%;
+    background-color: #999999;
+    text-align: center;
+}
+
+.square-presentation img {
+    width: 50%;
+}
+.square-presentation-description {
+    width: 50%;
+    height: 80%;
+    background-color: #999999;
+}
+
+.title {
+    background-color: #999999;
+    height: 15%;
+    padding-top: 0.1%;
+    font-size: 30px;
+}
+=======
     justify-content: center;
     align-items: center;
     height: 10%;
@@ -83,3 +132,4 @@ html, body {
 /*.square-presentation img {*/
 /*width: 50%;*/
 /*}*/
+>>>>>>> 3dcb3e968ab7c199f493d7d81ffeee3a8d6ab76b
