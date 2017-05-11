@@ -36,6 +36,9 @@ html, body {
 .card-presentation {
     display: flex;
     justify-content: center;
+    width: 38%;
+    padding-left: 8%;
+    height: 78%;
 }
 
 .card-presentation img {
@@ -46,6 +49,7 @@ html, body {
 .card-presentation-text {
     width: 45%;
     background-color: white;
+    padding-top: 3%;
 }
 
 .card-presentation-text h2 {
@@ -53,7 +57,7 @@ html, body {
 }
 
 .card-presentation-text p {
-    padding: 20px;
+    padding: 31px;
     text-align: justify;
 }
 
@@ -62,6 +66,7 @@ html, body {
     height: 70%;
     margin-top: auto;
     margin-bottom: auto;
+    padding-top: 9%;
 }
 
 .logo {
